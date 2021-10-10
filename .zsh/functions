@@ -1,0 +1,5 @@
+rsa ()
+{
+  printf '%s%s' "$1" "$(stoken)" | pbcopy
+}
+
