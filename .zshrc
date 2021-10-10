@@ -1,3 +1,7 @@
+# For locale (mosh)
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8   
+
 # For kubectl and git autocomplete
 autoload -Uz compinit && compinit
 
