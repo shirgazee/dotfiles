@@ -24,4 +24,4 @@ alias gst='git stash'
 alias gsta='git stash apply'
 alias gstp='git stash pop'
 alias uuid='echo -n $(uuidgen) | pbcopy'
-
+alias vim='nvim'

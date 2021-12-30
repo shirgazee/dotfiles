@@ -35,3 +35,4 @@ plugins=(colorize pip brew osx zsh-syntax-highlighting zsh-autosuggestions zsh-z
 source <(kubectl completion zsh)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/sbin:$PATH"
